@@ -1,0 +1,1 @@
+Use this theme to provide a custom styled loading indicator theme to the RKActivityIndicator theme manager.

@@ -1,0 +1,6 @@
+framework module RKActivityIndicator {
+  umbrella header "RKActivityIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}

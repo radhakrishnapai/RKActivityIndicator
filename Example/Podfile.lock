@@ -1,0 +1,16 @@
+PODS:
+  - RKActivityIndicator (0.1.0)
+
+DEPENDENCIES:
+  - RKActivityIndicator (from `../`)
+
+EXTERNAL SOURCES:
+  RKActivityIndicator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RKActivityIndicator: 5f51631ba6f2e760af48fd8d53f87abacfd901ee
+
+PODFILE CHECKSUM: 232ac73e4b2e5142e9220ced85dbf4ec666ac65c
+
+COCOAPODS: 1.1.0.rc.2

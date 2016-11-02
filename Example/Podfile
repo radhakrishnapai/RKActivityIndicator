@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'RKActivityIndicator_Example' do
+  pod 'RKActivityIndicator', :path => '../'
+
+end

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hQt-ZJ-RfT">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--RKActivityIndicator-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGT-Wd-KoN">
+                                <state key="normal" title="Definite Progress"/>
+                                <connections>
+                                    <segue destination="sXS-Zl-3Q5" kind="show" id="zrR-5a-Ll2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5UL-KZ-z6k">
+                                <state key="normal" title="Indefinite Progress"/>
+                                <connections>
+                                    <segue destination="0Lw-ME-guV" kind="show" id="o3q-4z-Kse"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fGT-Wd-KoN" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="4hc-95-j3k"/>
+                            <constraint firstItem="fGT-Wd-KoN" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" constant="-55" id="aLg-qr-li5"/>
+                            <constraint firstItem="5UL-KZ-z6k" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="n7q-GA-z3o"/>
+                            <constraint firstItem="5UL-KZ-z6k" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" constant="55" id="uzP-R2-8Mt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="RKActivityIndicator" id="9k6-Vs-w4o"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="738" y="-646"/>
+        </scene>
+        <!--Definite Progress-->
+        <scene sceneID="Opf-PU-Fvx">
+            <objects>
+                <viewController title="Definite Progress" id="sXS-Zl-3Q5" customClass="DefiniteViewController" customModule="RKActivityIndicator_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yMF-WW-kWR"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ah4-Fs-hFk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7Ef-os-Vtf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.90599094680000003" green="0.90599094680000003" blue="0.90599094680000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7m7-NM-5Jy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1448.8" y="-921.58920539730138"/>
+        </scene>
+        <!--Indefinite Progress-->
+        <scene sceneID="OJo-oY-3b9">
+            <objects>
+                <viewController title="Indefinite Progress" id="0Lw-ME-guV" customClass="IndefiniteViewController" customModule="RKActivityIndicator_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PTr-8z-UFS"/>
+                        <viewControllerLayoutGuide type="bottom" id="3j3-ZL-Glz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zhN-lP-ane">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.90599094680000003" green="0.90599094680000003" blue="0.90599094680000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uaX-Hr-a3W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1449" y="-161"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="owI-Cp-3fq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hQt-ZJ-RfT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="hIw-oz-8ZR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="cdf-fM-hHT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="giG-hG-1AU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="-646.32683658170924"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,22 @@
+{
+  "name": "RKActivityIndicator",
+  "version": "0.1.0",
+  "summary": "A custom Activity Indicator.",
+  "description": "RKActivityIndicator is a custom activity indicator build using swift, which you can use in your projects based on your need. It comes mainly in two variants, definite and indefinite progress. You can customize it by providing your own image set for animation.",
+  "homepage": "https://github.com/radhakrishnapai/RKActivityIndicator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Radhakrishna Pai": "radhakrishnapai09@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/radhakrishnapai/RKActivityIndicator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RKActivityIndicator/Classes/**/*"
+}
