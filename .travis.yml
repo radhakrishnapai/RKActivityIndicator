@@ -23,7 +23,6 @@ script:
   - set -o pipefail
   - xcodebuild -version
   - xcodebuild -showsdks
-  
   — xcodebuild clean build -workspace "Example/RKActivityIndicator.xcworkspace" -scheme "RKActivityIndicator-Example" -destination "$DESTINATION"
 #  - if [ $BUILD_EXAMPLE == "YES" ]; then 
 #      xcodebuild -project "Example/RKActivityIndicator.xcodeproj" -scheme "RKActivityIndicator-Example" -sdk "$IOS_SDK" -destination "$DESTINATION" 
