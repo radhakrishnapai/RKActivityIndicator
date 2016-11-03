@@ -1,5 +1,7 @@
 language: objective-c
 osx_image: xcode8
+xcode_workspace: Example/RKActivityIndicator.xcworkspace
+podfile: Example/Podfile
 env:
   global:
   - LC_CTYPE=en_US.UTF-8
