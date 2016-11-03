@@ -1,6 +1,6 @@
 # RKActivityIndicator
 
-[![CI Status](http://img.shields.io/travis/Radhakrishna Pai/RKActivityIndicator.svg?style=flat)](https://travis-ci.org/Radhakrishna Pai/RKActivityIndicator) 
+[![CI Status](http://img.shields.io/travis/Radhakrishna Pai/RKActivityIndicator.svg?style=flat)](https://travis-ci.org/radhakrishnapai/RKActivityIndicator) 
 [![Version](https://img.shields.io/cocoapods/v/RKActivityIndicator.svg?style=flat)](http://cocoapods.org/pods/RKActivityIndicator) 
 [![License](https://img.shields.io/cocoapods/l/RKActivityIndicator.svg?style=flat)](http://cocoapods.org/pods/RKActivityIndicator) 
 [![Platform](https://img.shields.io/cocoapods/p/RKActivityIndicator.svg?style=flat)](http://cocoapods.org/pods/RKActivityIndicator)
